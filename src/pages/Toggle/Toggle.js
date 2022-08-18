@@ -2,7 +2,9 @@
 import { css } from "@emotion/react";
 import GoHomeBtn from "../../components/GoHomeBtn";
 import ToggleSimple from "./components/ToggleSimple";
+import ToggleSimpleDevelop from "./components/ToggleSimpleDevelop";
 import ToggleEye from "./components/ToggleEye";
+import ToggleEyeDevelop from "./components/ToggleEyeDevelop";
 
 function Toggle() {
   return (
@@ -20,7 +22,9 @@ function Toggle() {
     >
       <GoHomeBtn />
       <ToggleSimple />
+      <ToggleSimpleDevelop />
       <ToggleEye />
+      <ToggleEyeDevelop />
     </div>
   );
 }

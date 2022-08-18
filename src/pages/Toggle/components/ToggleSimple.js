@@ -28,7 +28,7 @@ function ToggleSimple() {
       <div
         css={css`
           position: relative;
-          left: ${isOn ? 0 : '50px'};
+          left: ${isOn ? '50px' : 0};
           width: 40px;
           height: 40px;
           border-radius: 45px;

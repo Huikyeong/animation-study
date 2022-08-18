@@ -29,6 +29,8 @@ function Main() {
           line-height: 130%;
 
           margin-bottom: 50px;
+
+          user-select: none;
           z-index: 1;
         `}
       >
@@ -86,6 +88,10 @@ function Main() {
       <PageLinkBtn
         path='/cursortrack'
         title='Cursor Tracking Eyes'
+      />
+      <PageLinkBtn
+        path='/exhibition'
+        title='Exhibition'
       />
     </div>
   );

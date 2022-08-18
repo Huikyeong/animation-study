@@ -3,7 +3,7 @@ import { css } from "@emotion/react";
 import { colors } from "../../../style/colors";
 import { useState } from "react";
 
-function ToggleEye() {
+function ToggleEyeDevelop() {
   const [isOn, setIsOn] = useState(false);
 
   return (
@@ -30,6 +30,9 @@ function ToggleEye() {
         css={css`
           position: relative;
           left: ${isOn ? '50px' : 0};
+
+          display: flex;
+          
           width: 50px;
           height: 50px;
           border-radius: 45px;
@@ -38,7 +41,58 @@ function ToggleEye() {
 
           transition: all .25s ease;
         `}
-      />
+      >
+        <div
+          css={css`
+            position: relative;
+            top: 0;
+            left: ${isOn ? '-50px' : '0px'};
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-shrink: 0;
+
+            width: 50px;
+            height: 50px;
+
+            color: ${colors[5]};
+            font-weight: 600;
+            font-size: 15px;
+
+            transition: all .25s ease;
+
+            user-select: none;
+          `}
+        >
+          L
+        </div>
+        <div
+          css={css`
+            position: relative;
+            top: 0;
+            left: ${isOn ? '-50px' : '0px'};
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-shrink: 0;
+
+            width: 50px;
+            height: 50px;
+
+            color: ${colors[5]};
+            font-weight: 600;
+            font-size: 15px;
+
+            transition: all .25s ease;
+
+            user-select: none;
+          `}
+        >
+          R
+        </div>
+      </div>
       <div
         css={css`
           position: absolute;
@@ -67,4 +121,4 @@ function ToggleEye() {
   );
 }
 
-export default ToggleEye;
+export default ToggleEyeDevelop;
