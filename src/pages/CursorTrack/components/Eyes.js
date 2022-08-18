@@ -33,6 +33,10 @@ function Eyes() {
         margin: 40px;
         background-color: ${colors[5]};
         // overflow: hidden;
+        transition: background-color 2s ease-out;
+        &:hover {
+          background-color: #f06e95;
+        }
       `}
     >
       <div

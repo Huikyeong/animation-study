@@ -29,6 +29,14 @@ function GoHomeBtn() {
 
         padding: 10px 14px;
         cursor: pointer;
+
+        transition: all .2s;
+        &:hover {
+          background-color: ${colors[5]};
+          color: ${colors[1]};
+        }
+
+        z-index: 999;
       `}
       onClick={onClickGoHomeBtn}
     >
