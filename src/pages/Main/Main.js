@@ -1,5 +1,6 @@
 /** @jsxImportSource @emotion/react */
 import { css } from "@emotion/react";
+import { colors } from "../../style/colors";
 import PageLinkBtn from "../../components/PageLinkBtn";
 
 function Main() {
@@ -14,8 +15,8 @@ function Main() {
 
         width: 100%;
         height: 100%;
-        background-color: #0A369D;
-        color: #CFDEE7;
+        background-color: ${colors[1]};
+        color: ${colors[5]};
 
         padding: 80px;
       `}
@@ -37,7 +38,7 @@ function Main() {
         css={css`
           width: 100px;
           height: 10px;
-          border-bottom: 1.5px solid #CFDEE7;
+          border-bottom: 1.5px solid ${colors[5]};
 
           margin: 10px 0 30px 0;
 
@@ -51,7 +52,7 @@ function Main() {
           left: 150px;
           width: 150px;
           height: 150px;
-          background-color: #6D8AC2;
+          background-color: ${colors[3]};
           border-radius: 500px;
 
           display: none;
@@ -64,7 +65,7 @@ function Main() {
           left: -190px;
           width: 400px;
           height: 400px;
-          border: 4px solid #3C60B0;
+          border: 4px solid ${colors[2]};
           border-radius: 500px;
 
           display: none;
@@ -76,11 +77,15 @@ function Main() {
       />
       <PageLinkBtn
         path='/scroll2'
-        title='Scroll2'
+        title='Scroll GIF'
       />
       <PageLinkBtn
         path='/toggle'
-        title='Toggle'
+        title='Toggle Buttons'
+      />
+      <PageLinkBtn
+        path='/cursortrack'
+        title='Cursor Tracking Eyes'
       />
     </div>
   );

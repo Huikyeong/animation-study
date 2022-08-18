@@ -1,6 +1,7 @@
 /** @jsxImportSource @emotion/react */
 import { css } from "@emotion/react";
-import { AiFillHome } from 'react-icons/ai';
+import { colors } from '../style/colors';
+import { MdHome } from 'react-icons/md';
 import { useNavigate } from "react-router-dom";
 
 function GoHomeBtn() {
@@ -21,19 +22,26 @@ function GoHomeBtn() {
         justify-content: center;
         align-items: center;
 
-        width: 50px;
-        height: 50px;
+        background-color: ${colors[1]};
+        border-radius: 2px;
+        box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
+        color: ${colors[5]};
 
-        background-color: #CFDEE7;
-        border-radius: 15px;
-        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
-        color: #0A369D;
-
+        padding: 10px 14px;
         cursor: pointer;
       `}
       onClick={onClickGoHomeBtn}
     >
-      <AiFillHome size={27} />
+      <MdHome size={20} />
+      <div
+        css={css`
+          font-weight: 700;
+          font-size: 15px;
+          margin-left: 5px;
+        `}
+      >
+        Go to Home
+      </div>
     </div>
   );
 }
