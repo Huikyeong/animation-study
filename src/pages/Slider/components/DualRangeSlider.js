@@ -41,7 +41,7 @@ function DualRangeSlider({ max, t, setSliderMin, setSliderMax, defaultMinValue, 
 
   return (
     <div>
-      <motion.div css={Track} ref={constraintsRef}>
+      <motion.div ref={constraintsRef}>
 
       </motion.div>
     </div>
