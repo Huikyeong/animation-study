@@ -93,6 +93,14 @@ function Main() {
         path='/exhibition'
         title='Exhibition'
       />
+      <PageLinkBtn
+        path='/slider'
+        title='Slider'
+      />
+      <PageLinkBtn
+        path='/dragdrop'
+        title='DragDrop'
+      />
     </div>
   );
 }

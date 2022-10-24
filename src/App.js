@@ -6,6 +6,8 @@ import Scroll2 from './pages/Scroll2/Scroll2';
 import Toggle from './pages/Toggle/Toggle';
 import CursorTrack from './pages/CursorTrack/CursorTrack';
 import Exhibition from './pages/Exhibition/Exhibition';
+import Slider from './pages/Slider/Slider';
+import DragDrop from './pages/DragDrop/DragDrop';
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
           <Route path='/toggle' element={<Toggle />}></Route>
           <Route path='/cursortrack' element={<CursorTrack />}></Route>
           <Route path='/exhibition' element={<Exhibition />}></Route>
+          <Route path='/slider' element={<Slider />}></Route>
+          <Route path='/dragdrop' element={<DragDrop />}></Route>
         </Routes>
       </BrowserRouter>
     </div>
