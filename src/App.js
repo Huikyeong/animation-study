@@ -12,7 +12,7 @@ import DragDrop from './pages/DragDrop/DragDrop';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename='/animation-study'>
         <Routes>
           <Route path='/' element={<Main />}></Route>
           <Route path='/scroll' element={<Scroll />}></Route>
