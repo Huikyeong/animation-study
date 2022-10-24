@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/animation-study/static/css/main.e328ac1c.css",
-    "main.js": "/animation-study/static/js/main.b26b1bd5.js",
+    "main.js": "/animation-study/static/js/main.fe56d97d.js",
     "static/js/787.1c883fd5.chunk.js": "/animation-study/static/js/787.1c883fd5.chunk.js",
     "static/media/MobPsycho1.jpeg": "/animation-study/static/media/MobPsycho1.7df60d2bbb5bc89222dc.jpeg",
     "static/media/MobPsycho2.jpeg": "/animation-study/static/media/MobPsycho2.19710d58c191919e8d8c.jpeg",
@@ -52,11 +52,11 @@
     "static/media/onepunchman-0005.jpg": "/animation-study/static/media/onepunchman-0005.15b51cf43b2784dcf3d7.jpg",
     "index.html": "/animation-study/index.html",
     "main.e328ac1c.css.map": "/animation-study/static/css/main.e328ac1c.css.map",
-    "main.b26b1bd5.js.map": "/animation-study/static/js/main.b26b1bd5.js.map",
+    "main.fe56d97d.js.map": "/animation-study/static/js/main.fe56d97d.js.map",
     "787.1c883fd5.chunk.js.map": "/animation-study/static/js/787.1c883fd5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e328ac1c.css",
-    "static/js/main.b26b1bd5.js"
+    "static/js/main.fe56d97d.js"
   ]
 }
